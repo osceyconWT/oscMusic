@@ -11,13 +11,17 @@ depending on your operating system, follow these steps:<br>
 run the following commands inside of Command Prompt after installing Python:<br>
 "pip install mutagen"<br>
 "pip install pygame"<br>
+"pip install discord-rich-presence"<br>
 you can now run the program:<br>
 "python {filename}"<br>
 #### Linux:
 for the most common distro, Ubuntu/Ubuntu-based distros:<br>
 run these commands in your terminal:<br>
+**you need a venv for v2.0 on linux only!!!**<br>
 "sudo apt install python3-mutagen"<br>
 "sudo apt install python3-pygame"<br>
+and if you're using 2.0, repeat the steps with a venv but add:<br>
+"pip install discord-rich-presence"<br>
 then you can run the code:<br>
 "python3 {filename}"<br>
 if you're using any other distro i assume you're smart enough to adapt it to your distro yourself<br>
@@ -25,5 +29,6 @@ if you're using any other distro i assume you're smart enough to adapt it to you
 run these commands in your terminal:<br>
 "pip install mutagen"<br>
 "pip install pygame"<br>
+"pip install discord-rich-presence"<br>
 you can now run the program:<br>
 "python {filename}"<br>
